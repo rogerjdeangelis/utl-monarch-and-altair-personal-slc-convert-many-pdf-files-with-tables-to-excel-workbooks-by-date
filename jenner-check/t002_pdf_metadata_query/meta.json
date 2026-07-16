@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_pdf_metadata_query",
+  "source_file": "utl-monarch-and-altair-personal-slc-convert-many-pdf-files-with-tables-to-excel-workbooks-by-date.sas",
+  "source_blob_sha": "8ce5ca29d2a3eec98df7912a5ecce27cd59b6d1a",
+  "source_commit": "db80bc5e1354f3ca17d2d900dbf289da9b23b5e9",
+  "notes": "Reproduces the source's PDF-metadata PROC SQL step (dictionary.tables + CATS() building a pdfname column). The source's WHERE clause used the truncated-string operator EQT, which Jenner's PROC SQL parser currently rejects (filed as a compatibility gap); this bundle substitutes the equivalent LIKE pattern so the author's SQL/CATS logic still runs end to end. The source's libname xls excel \"d:/xls/pdf.xlsx\" (writing to an external Excel workbook) is dropped; the query result is left as a plain WORK table."
+}

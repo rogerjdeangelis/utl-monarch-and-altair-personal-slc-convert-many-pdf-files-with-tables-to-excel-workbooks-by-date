@@ -1,0 +1,24 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA date2025_09_14 date2025_10_04 date2025_12_15
+
+NOTE: Multi-output DATA step splits stream into: date2025_09_14 date2025_10_04 date2025_12_15
+NOTE: Processing inline DATALINES (9 lines)
+NOTE: Wrote date2025_09_14 (3 rows, 4 columns).
+NOTE: Wrote date2025_10_04 (3 rows, 4 columns).
+NOTE: Wrote date2025_12_15 (3 rows, 4 columns).
+
+NOTE: Read 9 rows from DATALINES.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=date2025_09_14
+
+NOTE: PROC PRINT completed: 3 observations printed, 4 variables
+NOTE: PROC PRINT data=date2025_10_04
+
+NOTE: PROC PRINT completed: 3 observations printed, 4 variables
+NOTE: PROC PRINT data=date2025_12_15
+
+NOTE: PROC PRINT completed: 3 observations printed, 4 variables
