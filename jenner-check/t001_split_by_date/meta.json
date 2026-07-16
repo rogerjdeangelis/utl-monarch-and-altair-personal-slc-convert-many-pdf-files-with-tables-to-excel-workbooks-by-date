@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_split_by_date",
+  "source_file": "utl-monarch-and-altair-personal-slc-convert-many-pdf-files-with-tables-to-excel-workbooks-by-date.sas",
+  "source_blob_sha": "8ce5ca29d2a3eec98df7912a5ecce27cd59b6d1a",
+  "source_commit": "db80bc5e1354f3ca17d2d900dbf289da9b23b5e9",
+  "notes": "The multi-output DATA step (SELECT/WHEN routing inline cards4 rows into three date-named datasets) is byte-identical to the source; added three PROC PRINT calls since the original relies on the author's own %array/%do_over macro library (not present in this repo) to loop over the split datasets and export them to PDF/Excel."
+}

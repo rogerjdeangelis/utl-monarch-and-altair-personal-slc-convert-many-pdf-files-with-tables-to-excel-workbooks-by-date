@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-16T16:22:00Z",
+  "_captured_run_id": "r_3ab407b051d04f57875d15638f010833",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table pdfsmeta created.",
+    "NOTE: PROC SQL statement used.",
+    "NOTE: PROC PRINT completed: 3 observations printed, 1 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,7 @@
+
+  Obs                    pdfname
+-----  -------------------------
+    1  d:/pdf/DATE2025_09_14.pdf
+    2  d:/pdf/DATE2025_10_04.pdf
+    3  d:/pdf/DATE2025_12_15.pdf
+
